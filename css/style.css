@@ -50,31 +50,29 @@ body {
 	float: right;
 }
 .home {
-	margin: 0;
-	border: 0;
 	background: #7f8c8c;
 	height: 500px;
 	text-align: center;
 	color:#ffffff;
 }
 .slider {
-	margin: 0 auto;
-	max-width: 1055px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%, -50%);
 	text-align: center;
 }
 .vestibulum {
+	margin: 0 auto;
 	padding: 0 11px 3px;
-	display: inline-block; 
-	margin: 162px 100px 0;
+	width: 330px;
 	border-radius: 4px;
 	line-height: 1em;
 	background: #e2534b;
-	font-size: 43px;
+	font-size: 50px;
 }
 .maecenas {
 	padding: 10px 35px;
-	display: inline-block; 
-	margin: 10px 100px;
 	border-radius: 4px;
 	background: #3f4646;
 	font-size: 16px;
@@ -86,7 +84,13 @@ body {
 	color:#ffffff;
 	overflow:hidden;
 }
+.intro-frame-top {
+	height: 200px;
+}
 .intro-frame {
+	position: absolute;
+	left: 50%;
+	transform:translate(-50%);
 	display: inline-block;
 	text-align: left;
 	border-radius: 4px;
@@ -94,7 +98,7 @@ body {
 	color: #7f8c8c;
 	font-size: 15px;
 	width: 1110px;
-	margin: 50px 162px 0;
+
 	padding: 2px 30px;
 }
 .viewmore {
