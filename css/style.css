@@ -37,7 +37,6 @@ body {
 	box-shadow: inset 0 -3px 0 #528b86;
 }
 .main-nav a:hover {
-	color: #ffffff;
 	background: #e8645a;
 	box-shadow: inset 0 -3px 0 #e2534b;
 }
@@ -47,7 +46,6 @@ body {
 	padding: 20px;
 }
 .ico-search {
-	display: inline-block;
 	margin: 8px;
 	float: right;
 }
@@ -69,28 +67,26 @@ body {
 	display: inline-block; 
 	margin: 162px 100px 0;
 	border-radius: 4px;
-	line-height: 93%;
+	line-height: 1em;
 	background: #e2534b;
-	font-size: 43pt;
+	font-size: 43px;
 }
 .maecenas {
-	padding: 0 35px;
+	padding: 10px 35px;
 	display: inline-block; 
-	margin: 10px;
+	margin: 10px 100px;
 	border-radius: 4px;
 	background: #3f4646;
-	font-size: 16pt;
-	width: 480px;
+	font-size: 16px;
+	width: 400px;
 }
 .intro {
-	margin: 0;
-	border: 0;
 	background: #f3f3f3;
 	height: 707px;
 	color:#ffffff;
 	overflow:hidden;
 }
-.intro1 {
+.intro-frame {
 	display: inline-block;
 	text-align: left;
 	border-radius: 4px;
@@ -179,8 +175,8 @@ body {
 .habitasse-box:hover {
 	background: #ffffff;
 }
-.section-services button {
-	padding: 17px 45px;
+.section-services a {
+	padding: 7px 55px 10px;
 	display: inline-block;
 	border-radius: 4px;
 	background-color: #76c7c0;
@@ -188,12 +184,10 @@ body {
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 20px;
-	width: 200px;
-	height: 54px;
     margin-bottom: 25px;
     box-shadow: inset 0 -3px 0 #62b9b0;
 }
-.section-services button:hover {
+.section-services a:hover {
 	background-color: #e8645a;
 	color: #ffffff;
     box-shadow: inset 0 -3px 0 #e2534b;
