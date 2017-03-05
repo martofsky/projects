@@ -50,13 +50,14 @@ body {
 	float: right;
 }
 .home {
+	position: relative;
 	background: #7f8c8c;
 	height: 500px;
 	text-align: center;
 	color:#ffffff;
 }
 .slider {
-	position: relative;
+	position: absolute;
 	left: 50%;
 	top: 50%;
 	transform:translate(-50%, -50%);
@@ -86,12 +87,14 @@ body {
 	overflow:hidden;
 }
 .intro-frame-top {
+	position: relative;
 	height: 200px;
 }
 .intro-frame {
 	position: absolute;
 	left: 50%;
-	transform:translate(-50%);
+	top: 50%;
+	transform:translate(-50%, -50%);
 	display: inline-block;
 	text-align: left;
 	border-radius: 4px;
