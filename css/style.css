@@ -3,6 +3,10 @@ body {
 	background: #f3f3f3;
 	font: 13px/1.6 'Open Sans', sans-serif;
 	color: #777;
+	min-width: 1170px;
+}
+.page {
+	overflow: hidden;
 }
 .clearfix:before, .clearfix:after {
 	content: "\0020"; display: block; height: 0; visibility: hidden; 
@@ -30,19 +34,48 @@ body {
 .main-nav li {
 	display: inline-block;
 	margin: 0 0 0 25px;
+	position: relative;
+}
+/* drop menu */
+.main-nav .drop {
+	position: absolute;
+	border-radius: 3px;
+	top: 100%;
+	left: 0;
+	background: #76c7c0; 
+	opacity: 0.7;
+	z-index: 999;
+	width: 250px;
+	box-shadow: inset 0 -1px 0 #528b86;
+	display: none; 
+}
+.main-nav .drop li {
+	margin: 0;	
+	display: block;	
+} 
+.main-nav li:hover .drop {
+	display: block;
+}
+.main-nav li:hover .drop a{
+	-webkit-box-shadow: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+.main-nav li.active a{
+	background: #62a29e;
+	box-shadow: inset 0 -3px 0 #528b86;
 }
 .main-nav a {
 	display: inline-block;
 	padding: 5px 14px;
-	color: #fff;
-	background: #62a29e;
+	color: #fff;	
 	text-decoration: none;
 	border-radius: 4px;
-	box-shadow: inset 0 -3px 0 #528b86;
 }
-.main-nav a:hover {
+.main-nav li:hover {
 	background: #e8645a;
 	box-shadow: inset 0 -3px 0 #e2534b;
+	border-radius: 4px;
 }
 .header-right {
 	float: right;
@@ -142,6 +175,7 @@ body {
 	width: 1184px;
 }
 .box {
+	position: relative;
 	float: left;
 	display: inline-block;
 	margin: 13px;
@@ -162,6 +196,9 @@ body {
 	color: #e2534b;
 }
 .section-services a {
+	position: absolute;
+	bottom: 10%;
+	right: 12%;
 	padding: 7px 55px 10px;
 	display: inline-block;
 	border-radius: 4px;
@@ -170,7 +207,6 @@ body {
 	text-align: center;
 	font-size: 20px;
 	text-decoration: none;
-    margin-bottom: 25px;
     box-shadow: inset 0 -3px 0 #62b9b0;
 }
 .section-services a:hover {
@@ -183,12 +219,12 @@ body {
 .section-services p {
 	color: #7f8c8c;
 }
-
 .footer {
 	background: #76c7c0 url(../images/decor-footer.png) repeat-x 0 0;
 	padding: 30px 0;
 	height: 240px;
 	width: 100%;
+	display: block;
 }
 .footer-left {
 	float: left;
@@ -200,6 +236,7 @@ body {
 }
 .footer-right {
 	float: left;
+
 }
 .footer-bottom {
 	overflow: hidden;
