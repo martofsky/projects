@@ -117,11 +117,11 @@ body {
     margin: 25px;
     box-shadow: inset 0 -3px 0 #e2534b;
     text-decoration: none;
+    font-size: 20px;
 }
 .viewmore:hover {
-	background-color: #ff0f02;
-	color: #FFFFFF;
-    box-shadow: inset 0 -3px 0 #e2534b;
+	background-color: #f37a70;
+    box-shadow: inset 0 -3px 0 #e8645a;
 }
 .intro-frame-services {
 	position: relative;
@@ -170,7 +170,6 @@ body {
 }
 .section-services a:hover {
 	background-color: #e8645a;
-	color: #ffffff;
     box-shadow: inset 0 -3px 0 #e2534b;
 }
 .section-services h3 {
