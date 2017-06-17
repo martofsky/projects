@@ -7717,7 +7717,7 @@ body {
   min-height: 490px;
   width: 308px;
   border-radius: 15px;
-  margin-top: -3%; }
+  margin-top: -35px; }
   .booking:before {
     content: '';
     top: -7px;
@@ -7794,11 +7794,12 @@ body {
 .spec-area {
   z-index: 3;
   color: #fff;
-  margin-top: -45px; }
+  margin-top: -5%;
+  padding-right: 75px; }
   .spec-area .row:last-child {
     border-top: dotted #fff; }
   .spec-area .spec-off {
-    padding: 10px 0; }
+    padding: 17px 0; }
     .spec-area .spec-off img {
       padding: 3px;
       background: #fff;
@@ -7806,8 +7807,12 @@ body {
     .spec-area .spec-off .img-col {
       width: 25%; }
     .spec-area .spec-off .text-col {
+      font-size: 12px;
       width: 75%;
-      padding-bottom: 15px; }
+      padding-bottom: 15px;
+      padding-left: 23px; }
+      .spec-area .spec-off .text-col a {
+        padding: 5px 18px; }
       .spec-area .spec-off .text-col .price {
         font-size: 24px; }
       .spec-area .spec-off .text-col h4 {
@@ -7815,8 +7820,8 @@ body {
 
 .info-area {
   z-index: 3;
-  padding-top: 1%;
-  padding-left: 1%; }
+  padding-top: 14px;
+  padding-left: 9px; }
   .info-area .tab-content {
     padding: 15px 4px; }
     .info-area .tab-content a {
@@ -7825,7 +7830,7 @@ body {
     display: flex;
     padding: 4px 0; }
     .info-area .info a.main-link {
-      width: 76%;
+      width: 78%;
       color: #fff; }
       .info-area .info a.main-link:before {
         content: '\f144';
@@ -7836,12 +7841,12 @@ body {
       width: 23%;
       color: #fff; }
     .info-area .info a.more-link {
-      width: 17%;
+      width: 16%;
       color: #fff; }
   .info-area .offer-logo {
     position: absolute;
     right: 7%;
-    top: -60px; }
+    top: -53px; }
   .info-area .nav-tabs {
     border-bottom-color: #81ffff; }
     .info-area .nav-tabs li {
@@ -7861,16 +7866,20 @@ body {
 
 .map {
   background-color: #d6e6ef;
-  padding-bottom: 50px;
+  padding-bottom: 46px;
   position: relative; }
   .map h3 {
     text-align: center;
     margin-bottom: 0;
     font-weight: bold;
-    font-size: 28px; }
+    font-size: 28px;
+    padding-left: 14px; }
   .map h5 {
     text-align: center;
-    margin-top: 0; }
+    margin-top: 0;
+    margin-left: -21px;
+    font-weight: bold;
+    font-size: 17px; }
   .map img {
     z-index: 10; }
   .map .speech-bubble {
