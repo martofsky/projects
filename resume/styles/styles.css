@@ -11,7 +11,12 @@ body {
     display: flex;
     flex-direction: row-reverse;
 }
-
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #FB6D3A;
+}
 .main-content{
     padding: 105px 90px;
     background: #FFFFFF;
