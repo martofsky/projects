@@ -1,0 +1,9 @@
+.navbar {
+  position: relative;
+  padding: 40px;
+  z-index: 10;
+}
+.navbar .logo {
+  position: absolute;
+  left: 50px;
+}
